@@ -1,0 +1,226 @@
+Benchsuite V5 - perf analysis (executable: ./build/riscv64/rvv_smatmulop_f32_tiling)
+Testing matrix size: 256 x 256    tile_size:2 
+Execution time: 0.085243 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 0.085243, 256, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 256 2':
+
+        80,700,056      L1-dcache-loads                                                       
+           325,869      L1-dcache-load-misses            #    0.40% of all L1-dcache accesses 
+
+       0.101328917 seconds time elapsed
+
+       0.101369000 seconds user
+       0.000000000 seconds sys
+
+
+Testing matrix size: 256 x 256    tile_size:4 
+Execution time: 0.034719 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 0.034719, 256, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 256 4':
+
+        38,772,605      L1-dcache-loads                                                       
+            95,940      L1-dcache-load-misses            #    0.25% of all L1-dcache accesses 
+
+       0.050686042 seconds time elapsed
+
+       0.047016000 seconds user
+       0.003918000 seconds sys
+
+
+Testing matrix size: 256 x 256    tile_size:8 
+Execution time: 0.036010 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 0.036010, 256, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 256 8':
+
+        22,590,993      L1-dcache-loads                                                       
+           316,649      L1-dcache-load-misses            #    1.40% of all L1-dcache accesses 
+
+       0.051906542 seconds time elapsed
+
+       0.048171000 seconds user
+       0.004014000 seconds sys
+
+
+Testing matrix size: 512 x 512    tile_size:2 
+Execution time: 1.562453 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 1.562453, 512, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 512 2':
+
+       632,882,859      L1-dcache-loads                                                       
+         8,883,809      L1-dcache-load-misses            #    1.40% of all L1-dcache accesses 
+
+       1.614062834 seconds time elapsed
+
+       1.610128000 seconds user
+       0.004005000 seconds sys
+
+
+Testing matrix size: 512 x 512    tile_size:4 
+Execution time: 0.426844 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 0.426844, 512, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 512 4':
+
+       297,184,458      L1-dcache-loads                                                       
+         2,338,460      L1-dcache-load-misses            #    0.79% of all L1-dcache accesses 
+
+       0.480632583 seconds time elapsed
+
+       0.466487000 seconds user
+       0.011961000 seconds sys
+
+
+Testing matrix size: 512 x 512    tile_size:8 
+Execution time: 0.318080 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 0.318080, 512, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 512 8':
+
+       167,752,852      L1-dcache-loads                                                       
+         1,646,727      L1-dcache-load-misses            #    0.98% of all L1-dcache accesses 
+
+       0.369472001 seconds time elapsed
+
+       0.361805000 seconds user
+       0.007951000 seconds sys
+
+
+Testing matrix size: 1024 x 1024    tile_size:2 
+Execution time: 63.286363 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 63.286363, 1024, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 1024 2':
+
+     5,034,147,894      L1-dcache-loads                                                       
+       271,939,502      L1-dcache-load-misses            #    5.40% of all L1-dcache accesses 
+
+      63.498747530 seconds time elapsed
+
+      63.456919000 seconds user
+       0.023992000 seconds sys
+
+
+Testing matrix size: 1024 x 1024    tile_size:4 
+Execution time: 16.744463 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 16.744463, 1024, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 1024 4':
+
+     2,333,974,672      L1-dcache-loads                                                       
+        69,441,400      L1-dcache-load-misses            #    2.98% of all L1-dcache accesses 
+
+      16.945580925 seconds time elapsed
+
+      16.919855000 seconds user
+       0.019990000 seconds sys
+
+
+Testing matrix size: 1024 x 1024    tile_size:8 
+Execution time: 6.960601 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 6.960601, 1024, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 1024 8':
+
+     1,297,027,179      L1-dcache-loads                                                       
+        34,590,377      L1-dcache-load-misses            #    2.67% of all L1-dcache accesses 
+
+       7.174781170 seconds time elapsed
+
+       7.128528000 seconds user
+       0.027923000 seconds sys
+
+
+Testing matrix size: 2048 x 2048    tile_size:2 
+Execution time: 546.831845 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 546.831845, 2048, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 2048 2':
+
+    40,101,580,799      L1-dcache-loads                                                       
+     2,363,913,831      L1-dcache-load-misses            #    5.89% of all L1-dcache accesses 
+
+     547.752970053 seconds time elapsed
+
+     547.529666000 seconds user
+       0.075979000 seconds sys
+
+
+Testing matrix size: 2048 x 2048    tile_size:4 
+Execution time: 148.838092 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 148.838092, 2048, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 2048 4':
+
+    18,508,095,548      L1-dcache-loads                                                       
+       806,010,898      L1-dcache-load-misses            #    4.35% of all L1-dcache accesses 
+
+     150.000750072 seconds time elapsed
+
+     149.480675000 seconds user
+       0.127730000 seconds sys
+
+
+Testing matrix size: 2048 x 2048    tile_size:8 
+Execution time: 79.438935 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 79.438935, 2048, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 2048 8':
+
+    10,193,411,153      L1-dcache-loads                                                       
+     1,047,094,675      L1-dcache-load-misses            #   10.27% of all L1-dcache accesses 
+
+      80.225003997 seconds time elapsed
+
+      80.116742000 seconds user
+       0.091982000 seconds sys
+
+
+Testing matrix size: 4096 x 4096    tile_size:2 
+Execution time: 4606.941075 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 4606.941075, 4096, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 4096 2':
+
+   320,180,207,418      L1-dcache-loads                                                       
+    19,666,305,019      L1-dcache-load-misses            #    6.14% of all L1-dcache accesses 
+
+    4611.520967991 seconds time elapsed
+
+    4609.722515000 seconds user
+       0.275911000 seconds sys
+
+
+Testing matrix size: 4096 x 4096    tile_size:4 
+Execution time: 1238.231759 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 1238.231759, 4096, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 4096 4':
+
+   147,201,988,844      L1-dcache-loads                                                       
+     6,736,349,758      L1-dcache-load-misses            #    4.58% of all L1-dcache accesses 
+
+    1241.656145550 seconds time elapsed
+
+    1241.033539000 seconds user
+       0.267923000 seconds sys
+
+
+Testing matrix size: 4096 x 4096    tile_size:8 
+Execution time: 659.692487 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling, 659.692487, 4096, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling 4096 8':
+
+    80,823,405,494      L1-dcache-loads                                                       
+     8,379,869,686      L1-dcache-load-misses            #   10.37% of all L1-dcache accesses 
+
+     662.959034192 seconds time elapsed
+
+     662.494030000 seconds user
+       0.263924000 seconds sys
+
+

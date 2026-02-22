@@ -1,0 +1,4020 @@
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL 1
+size: 256 x 256  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.019326 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.019326, 256, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=2 LMUL=1':
+
+         8,461,962      L1-dcache-loads                                                       
+           145,297      L1-dcache-load-misses            #    1.72% of all L1-dcache accesses 
+
+       0.040257084 seconds time elapsed
+
+       0.035455000 seconds user
+       0.004431000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL 2
+size: 256 x 256  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.011365 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.011365, 256, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=2 LMUL=2':
+
+         7,407,462      L1-dcache-loads                                                       
+            74,509      L1-dcache-load-misses            #    1.01% of all L1-dcache accesses 
+
+       0.031004583 seconds time elapsed
+
+       0.019567000 seconds user
+       0.011740000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL 4
+size: 256 x 256  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.010404 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.010404, 256, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=2 LMUL=4':
+
+         6,878,253      L1-dcache-loads                                                       
+            50,491      L1-dcache-load-misses            #    0.73% of all L1-dcache accesses 
+
+       0.030121375 seconds time elapsed
+
+       0.022849000 seconds user
+       0.007616000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL 8
+size: 256 x 256  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006970 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.006970, 256, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=2 LMUL=8':
+
+         6,605,902      L1-dcache-loads                                                       
+            31,276      L1-dcache-load-misses            #    0.47% of all L1-dcache accesses 
+
+       0.026716250 seconds time elapsed
+
+       0.019276000 seconds user
+       0.007710000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL 1
+size: 256 x 256  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.011711 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.011711, 256, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=4 LMUL=1':
+
+         7,410,451      L1-dcache-loads                                                       
+           112,507      L1-dcache-load-misses            #    1.52% of all L1-dcache accesses 
+
+       0.031581667 seconds time elapsed
+
+       0.027937000 seconds user
+       0.003991000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL 2
+size: 256 x 256  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006817 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.006817, 256, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=4 LMUL=2':
+
+         6,348,307      L1-dcache-loads                                                       
+            37,873      L1-dcache-load-misses            #    0.60% of all L1-dcache accesses 
+
+       0.026823584 seconds time elapsed
+
+       0.019381000 seconds user
+       0.007752000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL 4
+size: 256 x 256  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006252 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.006252, 256, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=4 LMUL=4':
+
+         5,831,543      L1-dcache-loads                                                       
+            31,038      L1-dcache-load-misses            #    0.53% of all L1-dcache accesses 
+
+       0.026122958 seconds time elapsed
+
+       0.022675000 seconds user
+       0.003779000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL 8
+size: 256 x 256  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.008661 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.008661, 256, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=4 LMUL=8':
+
+         7,663,839      L1-dcache-loads                                                       
+            29,210      L1-dcache-load-misses            #    0.38% of all L1-dcache accesses 
+
+       0.028489042 seconds time elapsed
+
+       0.020562000 seconds user
+       0.008224000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL 1
+size: 256 x 256  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.008231 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.008231, 256, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=8 LMUL=1':
+
+         6,881,902      L1-dcache-loads                                                       
+            74,542      L1-dcache-load-misses            #    1.08% of all L1-dcache accesses 
+
+       0.028150417 seconds time elapsed
+
+       0.021392000 seconds user
+       0.007130000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL 2
+size: 256 x 256  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.004908 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.004908, 256, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=8 LMUL=2':
+
+         5,823,436      L1-dcache-loads                                                       
+            35,975      L1-dcache-load-misses            #    0.62% of all L1-dcache accesses 
+
+       0.024883500 seconds time elapsed
+
+       0.020912000 seconds user
+       0.004182000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL 4
+size: 256 x 256  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.011242 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.011242, 256, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=8 LMUL=4':
+
+         8,453,451      L1-dcache-loads                                                       
+            43,336      L1-dcache-load-misses            #    0.51% of all L1-dcache accesses 
+
+       0.031116542 seconds time elapsed
+
+       0.027454000 seconds user
+       0.003922000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL 8
+size: 256 x 256  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.010124 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.010124, 256, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=8 LMUL=8':
+
+         8,190,757      L1-dcache-loads                                                       
+            32,418      L1-dcache-load-misses            #    0.40% of all L1-dcache accesses 
+
+       0.030043500 seconds time elapsed
+
+       0.022774000 seconds user
+       0.007591000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL 1
+size: 256 x 256  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.009321 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.009321, 256, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=16 LMUL=1':
+
+         7,787,937      L1-dcache-loads                                                       
+           215,681      L1-dcache-load-misses            #    2.77% of all L1-dcache accesses 
+
+       0.029340833 seconds time elapsed
+
+       0.022185000 seconds user
+       0.007395000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL 2
+size: 256 x 256  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006941 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.006941, 256, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=16 LMUL=2':
+
+         6,676,966      L1-dcache-loads                                                       
+            58,163      L1-dcache-load-misses            #    0.87% of all L1-dcache accesses 
+
+       0.026799750 seconds time elapsed
+
+       0.019323000 seconds user
+       0.007729000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL 4
+size: 256 x 256  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.010434 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.010434, 256, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=16 LMUL=4':
+
+         7,971,665      L1-dcache-loads                                                       
+            48,406      L1-dcache-load-misses            #    0.61% of all L1-dcache accesses 
+
+       0.030408917 seconds time elapsed
+
+       0.023045000 seconds user
+       0.007681000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL 8
+size: 256 x 256  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.010452 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.010452, 256, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=16 LMUL=8':
+
+         8,611,300      L1-dcache-loads                                                       
+            41,105      L1-dcache-load-misses            #    0.48% of all L1-dcache accesses 
+
+       0.030402708 seconds time elapsed
+
+       0.030652000 seconds user
+       0.000000000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL 1
+size: 512 x 512  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.392179 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.392179, 512, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=2 LMUL=1':
+
+        50,053,675      L1-dcache-loads                                                       
+         2,091,403      L1-dcache-load-misses            #    4.18% of all L1-dcache accesses 
+
+       0.461275917 seconds time elapsed
+
+       0.452802000 seconds user
+       0.008014000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL 2
+size: 512 x 512  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.205248 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.205248, 512, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=2 LMUL=2':
+
+        41,536,442      L1-dcache-loads                                                       
+           346,736      L1-dcache-load-misses            #    0.83% of all L1-dcache accesses 
+
+       0.272989834 seconds time elapsed
+
+       0.257348000 seconds user
+       0.015836000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL 4
+size: 512 x 512  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.120697 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.120697, 512, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=2 LMUL=4':
+
+        37,319,878      L1-dcache-loads                                                       
+           233,525      L1-dcache-load-misses            #    0.63% of all L1-dcache accesses 
+
+       0.188354750 seconds time elapsed
+
+       0.188358000 seconds user
+       0.000000000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL 8
+size: 512 x 512  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.072935 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.072935, 512, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=2 LMUL=8':
+
+        35,211,810      L1-dcache-loads                                                       
+           149,782      L1-dcache-load-misses            #    0.43% of all L1-dcache accesses 
+
+       0.140925500 seconds time elapsed
+
+       0.133227000 seconds user
+       0.007836000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL 1
+size: 512 x 512  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.225825 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.225825, 512, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=4 LMUL=1':
+
+        41,542,153      L1-dcache-loads                                                       
+         1,121,424      L1-dcache-load-misses            #    2.70% of all L1-dcache accesses 
+
+       0.293943042 seconds time elapsed
+
+       0.281927000 seconds user
+       0.012082000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL 2
+size: 512 x 512  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.118001 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.118001, 512, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=4 LMUL=2':
+
+        33,105,291      L1-dcache-loads                                                       
+           316,235      L1-dcache-load-misses            #    0.96% of all L1-dcache accesses 
+
+       0.185464167 seconds time elapsed
+
+       0.181565000 seconds user
+       0.004034000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL 4
+size: 512 x 512  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.065937 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.065937, 512, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=4 LMUL=4':
+
+        28,893,783      L1-dcache-loads                                                       
+           188,098      L1-dcache-load-misses            #    0.65% of all L1-dcache accesses 
+
+       0.133341583 seconds time elapsed
+
+       0.121805000 seconds user
+       0.011787000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL 8
+size: 512 x 512  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.071255 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.071255, 512, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=4 LMUL=8':
+
+        43,621,339      L1-dcache-loads                                                       
+           195,585      L1-dcache-load-misses            #    0.45% of all L1-dcache accesses 
+
+       0.139056625 seconds time elapsed
+
+       0.131175000 seconds user
+       0.007950000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL 1
+size: 512 x 512  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.188347 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.188347, 512, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=8 LMUL=1':
+
+        37,336,097      L1-dcache-loads                                                       
+         1,385,686      L1-dcache-load-misses            #    3.71% of all L1-dcache accesses 
+
+       0.255970875 seconds time elapsed
+
+       0.244001000 seconds user
+       0.012000000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL 2
+size: 512 x 512  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.097056 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.097056, 512, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=8 LMUL=2':
+
+        28,952,479      L1-dcache-loads                                                       
+           574,526      L1-dcache-load-misses            #    1.98% of all L1-dcache accesses 
+
+       0.165313666 seconds time elapsed
+
+       0.153461000 seconds user
+       0.011804000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL 4
+size: 512 x 512  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.145032 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.145032, 512, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=8 LMUL=4':
+
+        49,939,916      L1-dcache-loads                                                       
+           621,067      L1-dcache-load-misses            #    1.24% of all L1-dcache accesses 
+
+       0.212661208 seconds time elapsed
+
+       0.204778000 seconds user
+       0.008030000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL 8
+size: 512 x 512  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.083048 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.083048, 512, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=8 LMUL=8':
+
+        47,846,781      L1-dcache-loads                                                       
+           182,649      L1-dcache-load-misses            #    0.38% of all L1-dcache accesses 
+
+       0.150902000 seconds time elapsed
+
+       0.147051000 seconds user
+       0.004084000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL 1
+size: 512 x 512  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.143734 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.143734, 512, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=16 LMUL=1':
+
+        44,670,686      L1-dcache-loads                                                       
+         1,319,884      L1-dcache-load-misses            #    2.95% of all L1-dcache accesses 
+
+       0.211667750 seconds time elapsed
+
+       0.203856000 seconds user
+       0.007994000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL 2
+size: 512 x 512  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.085684 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.085684, 512, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=16 LMUL=2':
+
+        35,752,262      L1-dcache-loads                                                       
+           689,216      L1-dcache-load-misses            #    1.93% of all L1-dcache accesses 
+
+       0.154117041 seconds time elapsed
+
+       0.138511000 seconds user
+       0.015829000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL 4
+size: 512 x 512  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.120087 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.120087, 512, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=16 LMUL=4':
+
+        45,999,425      L1-dcache-loads                                                       
+           876,955      L1-dcache-load-misses            #    1.91% of all L1-dcache accesses 
+
+       0.187932000 seconds time elapsed
+
+       0.180158000 seconds user
+       0.008007000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL 8
+size: 512 x 512  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.102798 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.102798, 512, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=16 LMUL=8':
+
+        51,128,076      L1-dcache-loads                                                       
+           775,447      L1-dcache-load-misses            #    1.52% of all L1-dcache accesses 
+
+       0.171009583 seconds time elapsed
+
+       0.163113000 seconds user
+       0.007956000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL 1
+size: 1024 x 1024  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 21.632065 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 21.632065, 1024, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=2 LMUL=1':
+
+       341,313,539      L1-dcache-loads                                                       
+       107,499,720      L1-dcache-load-misses            #   31.50% of all L1-dcache accesses 
+
+      21.912592844 seconds time elapsed
+
+      21.864903000 seconds user
+       0.027975000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL 2
+size: 1024 x 1024  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 11.227758 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 11.227758, 1024, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=2 LMUL=2':
+
+       269,937,507      L1-dcache-loads                                                       
+        55,575,097      L1-dcache-load-misses            #   20.59% of all L1-dcache accesses 
+
+      11.493934506 seconds time elapsed
+
+      11.440805000 seconds user
+       0.047969000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL 4
+size: 1024 x 1024  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 7.042880 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 7.042880, 1024, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=2 LMUL=4':
+
+       234,970,250      L1-dcache-loads                                                       
+        35,941,992      L1-dcache-load-misses            #   15.30% of all L1-dcache accesses 
+
+       7.310536129 seconds time elapsed
+
+       7.271556000 seconds user
+       0.031962000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL 8
+size: 1024 x 1024  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.817293 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.817293, 1024, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=2 LMUL=8':
+
+       215,856,624      L1-dcache-loads                                                       
+         1,501,311      L1-dcache-load-misses            #    0.70% of all L1-dcache accesses 
+
+       1.078384708 seconds time elapsed
+
+       1.062046000 seconds user
+       0.016030000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL 1
+size: 1024 x 1024  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 11.915250 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 11.915250, 1024, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=4 LMUL=1':
+
+       270,396,784      L1-dcache-loads                                                       
+        61,010,550      L1-dcache-load-misses            #   22.56% of all L1-dcache accesses 
+
+      12.186702506 seconds time elapsed
+
+      12.147430000 seconds user
+       0.027971000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL 2
+size: 1024 x 1024  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 6.096186 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 6.096186, 1024, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=4 LMUL=2':
+
+       201,086,438      L1-dcache-loads                                                       
+        30,804,762      L1-dcache-load-misses            #   15.32% of all L1-dcache accesses 
+
+       6.361949794 seconds time elapsed
+
+       6.337499000 seconds user
+       0.019992000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL 4
+size: 1024 x 1024  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 3.897585 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 3.897585, 1024, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=4 LMUL=4':
+
+       166,722,444      L1-dcache-loads                                                       
+        19,718,705      L1-dcache-load-misses            #   11.83% of all L1-dcache accesses 
+
+       4.161543668 seconds time elapsed
+
+       4.137720000 seconds user
+       0.019988000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL 8
+size: 1024 x 1024  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.777140 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.777140, 1024, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=4 LMUL=8':
+
+       283,097,560      L1-dcache-loads                                                       
+         2,100,276      L1-dcache-load-misses            #    0.74% of all L1-dcache accesses 
+
+       1.037828834 seconds time elapsed
+
+       1.017459000 seconds user
+       0.020028000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL 1
+size: 1024 x 1024  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 7.122900 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 7.122900, 1024, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=8 LMUL=1':
+
+       234,817,439      L1-dcache-loads                                                       
+        43,256,979      L1-dcache-load-misses            #   18.42% of all L1-dcache accesses 
+
+       7.384097711 seconds time elapsed
+
+       7.343440000 seconds user
+       0.039975000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL 2
+size: 1024 x 1024  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 4.090779 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 4.090779, 1024, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=8 LMUL=2':
+
+       168,577,525      L1-dcache-loads                                                       
+        24,478,582      L1-dcache-load-misses            #   14.52% of all L1-dcache accesses 
+
+       4.357813211 seconds time elapsed
+
+       4.322058000 seconds user
+       0.032015000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL 4
+size: 1024 x 1024  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 4.444536 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 4.444536, 1024, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=8 LMUL=4':
+
+       334,814,189      L1-dcache-loads                                                       
+        25,412,316      L1-dcache-load-misses            #    7.59% of all L1-dcache accesses 
+
+       4.707884252 seconds time elapsed
+
+       4.676535000 seconds user
+       0.027979000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL 8
+size: 1024 x 1024  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 1.254626 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 1.254626, 1024, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=8 LMUL=8':
+
+       316,868,208      L1-dcache-loads                                                       
+         7,237,068      L1-dcache-load-misses            #    2.28% of all L1-dcache accesses 
+
+       1.516854292 seconds time elapsed
+
+       1.499327000 seconds user
+       0.015992000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL 1
+size: 1024 x 1024  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 6.437337 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 6.437337, 1024, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=16 LMUL=1':
+
+       293,525,881      L1-dcache-loads                                                       
+       125,461,161      L1-dcache-load-misses            #   42.74% of all L1-dcache accesses 
+
+       6.704134461 seconds time elapsed
+
+       6.669869000 seconds user
+       0.027991000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL 2
+size: 1024 x 1024  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 3.724243 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 3.724243, 1024, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=16 LMUL=2':
+
+       221,202,139      L1-dcache-loads                                                       
+        63,890,604      L1-dcache-load-misses            #   28.88% of all L1-dcache accesses 
+
+       3.989671960 seconds time elapsed
+
+       3.956858000 seconds user
+       0.027949000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL 4
+size: 1024 x 1024  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 2.395509 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 2.395509, 1024, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=16 LMUL=4':
+
+       303,866,104      L1-dcache-loads                                                       
+        34,581,564      L1-dcache-load-misses            #   11.38% of all L1-dcache accesses 
+
+       2.657429418 seconds time elapsed
+
+       2.621109000 seconds user
+       0.036015000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL 8
+size: 1024 x 1024  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 1.096713 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 1.096713, 1024, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=16 LMUL=8':
+
+       343,024,896      L1-dcache-loads                                                       
+        17,041,071      L1-dcache-load-misses            #    4.97% of all L1-dcache accesses 
+
+       1.356600043 seconds time elapsed
+
+       1.332701000 seconds user
+       0.024012000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL 1
+size: 2048 x 2048  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 181.568381 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 181.568381, 2048, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=2 LMUL=1':
+
+     2,468,975,829      L1-dcache-loads                                                       
+       892,508,144      L1-dcache-load-misses            #   36.15% of all L1-dcache accesses 
+
+     182.656472295 seconds time elapsed
+
+     182.516011000 seconds user
+       0.079975000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL 2
+size: 2048 x 2048  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 110.385699 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 110.385699, 2048, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=2 LMUL=2':
+
+     1,906,564,405      L1-dcache-loads                                                       
+       583,534,292      L1-dcache-load-misses            #   30.61% of all L1-dcache accesses 
+
+     111.450721012 seconds time elapsed
+
+     111.341024000 seconds user
+       0.071974000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL 4
+size: 2048 x 2048  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 79.633243 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 79.633243, 2048, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=2 LMUL=4':
+
+     1,627,545,133      L1-dcache-loads                                                       
+       428,384,416      L1-dcache-load-misses            #   26.32% of all L1-dcache accesses 
+
+      80.685962413 seconds time elapsed
+
+      80.552044000 seconds user
+       0.115971000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL 8
+size: 2048 x 2048  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 42.246045 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 42.246045, 2048, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=2 LMUL=8':
+
+     1,480,909,631      L1-dcache-loads                                                       
+       214,007,724      L1-dcache-load-misses            #   14.45% of all L1-dcache accesses 
+
+      43.299926604 seconds time elapsed
+
+      43.190188000 seconds user
+       0.083949000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL 1
+size: 2048 x 2048  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 101.318369 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 101.318369, 2048, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=4 LMUL=1':
+
+     1,903,961,697      L1-dcache-loads                                                       
+       551,769,987      L1-dcache-load-misses            #   28.98% of all L1-dcache accesses 
+
+     102.383109257 seconds time elapsed
+
+     102.289831000 seconds user
+       0.055979000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL 2
+size: 2048 x 2048  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 61.676708 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 61.676708, 2048, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=4 LMUL=2':
+
+     1,355,910,412      L1-dcache-loads                                                       
+       345,296,303      L1-dcache-load-misses            #   25.47% of all L1-dcache accesses 
+
+      62.803850863 seconds time elapsed
+
+      62.610454000 seconds user
+       0.095856000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL 4
+size: 2048 x 2048  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 42.664506 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 42.664506, 2048, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=4 LMUL=4':
+
+     1,078,819,308      L1-dcache-loads                                                       
+       242,290,834      L1-dcache-load-misses            #   22.46% of all L1-dcache accesses 
+
+      43.716654646 seconds time elapsed
+
+      43.629430000 seconds user
+       0.059963000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL 8
+size: 2048 x 2048  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 25.738900 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 25.738900, 2048, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=4 LMUL=8':
+
+     2,011,911,934      L1-dcache-loads                                                       
+       132,298,022      L1-dcache-load-misses            #    6.58% of all L1-dcache accesses 
+
+      26.774823263 seconds time elapsed
+
+      26.671243000 seconds user
+       0.095982000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL 1
+size: 2048 x 2048  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 67.915070 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 67.915070, 2048, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=8 LMUL=1':
+
+     1,624,714,584      L1-dcache-loads                                                       
+       972,977,024      L1-dcache-load-misses            #   59.89% of all L1-dcache accesses 
+
+      68.975214991 seconds time elapsed
+
+      68.863359000 seconds user
+       0.075963000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL 2
+size: 2048 x 2048  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 38.638090 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 38.638090, 2048, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=8 LMUL=2':
+
+     1,076,249,081      L1-dcache-loads                                                       
+       522,236,380      L1-dcache-load-misses            #   48.52% of all L1-dcache accesses 
+
+      39.674022144 seconds time elapsed
+
+      39.581396000 seconds user
+       0.083985000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL 4
+size: 2048 x 2048  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 44.823390 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 44.823390, 2048, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=8 LMUL=4':
+
+     2,422,853,511      L1-dcache-loads                                                       
+       571,741,430      L1-dcache-load-misses            #   23.60% of all L1-dcache accesses 
+
+      45.889657605 seconds time elapsed
+
+      45.789399000 seconds user
+       0.059949000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL 8
+size: 2048 x 2048  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 19.322251 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 19.322251, 2048, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=8 LMUL=8':
+
+     2,278,226,230      L1-dcache-loads                                                       
+       188,091,360      L1-dcache-load-misses            #    8.26% of all L1-dcache accesses 
+
+      20.355049301 seconds time elapsed
+
+      20.283165000 seconds user
+       0.067983000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL 1
+size: 2048 x 2048  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 54.629911 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 54.629911, 2048, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=16 LMUL=1':
+
+     2,088,810,521      L1-dcache-loads                                                       
+     1,160,195,557      L1-dcache-load-misses            #   55.54% of all L1-dcache accesses 
+
+      55.675125818 seconds time elapsed
+
+      55.601045000 seconds user
+       0.055980000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL 2
+size: 2048 x 2048  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 32.703703 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 32.703703, 2048, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=16 LMUL=2':
+
+     1,511,830,997      L1-dcache-loads                                                       
+       600,859,836      L1-dcache-load-misses            #   39.74% of all L1-dcache accesses 
+
+      33.762968349 seconds time elapsed
+
+      33.667984000 seconds user
+       0.059935000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL 4
+size: 2048 x 2048  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 21.789337 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 21.789337, 2048, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=16 LMUL=4':
+
+     2,163,748,584      L1-dcache-loads                                                       
+       323,818,379      L1-dcache-load-misses            #   14.97% of all L1-dcache accesses 
+
+      22.878371178 seconds time elapsed
+
+      22.747525000 seconds user
+       0.071821000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL 8
+size: 2048 x 2048  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 16.974789 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 16.974789, 2048, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=16 LMUL=8':
+
+     2,487,873,550      L1-dcache-loads                                                       
+       176,401,685      L1-dcache-load-misses            #    7.09% of all L1-dcache accesses 
+
+      18.014134259 seconds time elapsed
+
+      17.923209000 seconds user
+       0.079942000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL 1
+size: 4096 x 4096  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 1497.323435 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 1497.323435, 4096, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=2 LMUL=1':
+
+    18,821,046,868      L1-dcache-loads                                                       
+     7,142,970,158      L1-dcache-load-misses            #   37.95% of all L1-dcache accesses 
+
+    1503.847368717 seconds time elapsed
+
+    1500.965808000 seconds user
+       0.467301000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL 2
+size: 4096 x 4096  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 905.813303 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 905.813303, 4096, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=2 LMUL=2':
+
+    14,237,355,494      L1-dcache-loads                                                       
+     4,672,401,779      L1-dcache-load-misses            #   32.82% of all L1-dcache accesses 
+
+     910.228205267 seconds time elapsed
+
+     909.581888000 seconds user
+       0.319886000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL 4
+size: 4096 x 4096  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 658.305404 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 658.305404, 4096, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=2 LMUL=4':
+
+    12,029,565,174      L1-dcache-loads                                                       
+     3,429,085,909      L1-dcache-load-misses            #   28.51% of all L1-dcache accesses 
+
+     663.266172733 seconds time elapsed
+
+     662.033645000 seconds user
+       0.379535000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL 8
+size: 4096 x 4096  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 366.452295 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 366.452295, 4096, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=2 LMUL=8':
+
+    10,821,033,415      L1-dcache-loads                                                       
+     1,753,994,061      L1-dcache-load-misses            #   16.21% of all L1-dcache accesses 
+
+     370.649451344 seconds time elapsed
+
+     370.202649000 seconds user
+       0.335900000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL 1
+size: 4096 x 4096  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 838.336011 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 838.336011, 4096, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=4 LMUL=1':
+
+    14,254,170,589      L1-dcache-loads                                                       
+     4,414,375,285      L1-dcache-load-misses            #   30.97% of all L1-dcache accesses 
+
+     843.824007361 seconds time elapsed
+
+     842.004679000 seconds user
+       0.419348000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL 2
+size: 4096 x 4096  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 507.286582 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 507.286582, 4096, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=4 LMUL=2':
+
+     9,796,981,757      L1-dcache-loads                                                       
+     2,778,269,603      L1-dcache-load-misses            #   28.36% of all L1-dcache accesses 
+
+     511.579924494 seconds time elapsed
+
+     511.029560000 seconds user
+       0.351863000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL 4
+size: 4096 x 4096  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 357.025595 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 357.025595, 4096, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=4 LMUL=4':
+
+     7,600,053,115      L1-dcache-loads                                                       
+     1,940,043,420      L1-dcache-load-misses            #   25.53% of all L1-dcache accesses 
+
+     361.313833756 seconds time elapsed
+
+     360.778311000 seconds user
+       0.339817000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL 8
+size: 4096 x 4096  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 213.798103 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 213.798103, 4096, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=4 LMUL=8':
+
+    15,065,648,237      L1-dcache-loads                                                       
+     1,067,884,556      L1-dcache-load-misses            #    7.09% of all L1-dcache accesses 
+
+     217.963143229 seconds time elapsed
+
+     217.512672000 seconds user
+       0.375876000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL 1
+size: 4096 x 4096  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 567.476495 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 567.476495, 4096, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=8 LMUL=1':
+
+    11,968,005,026      L1-dcache-loads                                                       
+     7,788,967,400      L1-dcache-load-misses            #   65.08% of all L1-dcache accesses 
+
+     571.804897565 seconds time elapsed
+
+     571.218257000 seconds user
+       0.335857000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL 2
+size: 4096 x 4096  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 323.722049 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 323.722049, 4096, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=8 LMUL=2':
+
+     7,586,942,628      L1-dcache-loads                                                       
+     4,187,240,306      L1-dcache-load-misses            #   55.19% of all L1-dcache accesses 
+
+     327.958440656 seconds time elapsed
+
+     327.476584000 seconds user
+       0.339855000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL 4
+size: 4096 x 4096  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 375.131584 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 375.131584, 4096, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=8 LMUL=4':
+
+    18,343,783,779      L1-dcache-loads                                                       
+     4,589,170,586      L1-dcache-load-misses            #   25.02% of all L1-dcache accesses 
+
+     379.350501264 seconds time elapsed
+
+     378.888410000 seconds user
+       0.331884000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL 8
+size: 4096 x 4096  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 160.906206 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 160.906206, 4096, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=8 LMUL=8':
+
+    17,197,677,083      L1-dcache-loads                                                       
+     1,515,433,931      L1-dcache-load-misses            #    8.81% of all L1-dcache accesses 
+
+     165.075200579 seconds time elapsed
+
+     164.666159000 seconds user
+       0.323831000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL 1
+size: 4096 x 4096  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 464.737251 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 464.737251, 4096, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=16 LMUL=1':
+
+    15,688,881,578      L1-dcache-loads                                                       
+     9,294,832,247      L1-dcache-load-misses            #   59.24% of all L1-dcache accesses 
+
+     468.992804516 seconds time elapsed
+
+     468.485822000 seconds user
+       0.331876000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL 2
+size: 4096 x 4096  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 273.548990 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 273.548990, 4096, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=16 LMUL=2':
+
+    11,059,075,759      L1-dcache-loads                                                       
+     4,802,658,695      L1-dcache-load-misses            #   43.43% of all L1-dcache accesses 
+
+     277.759415382 seconds time elapsed
+
+     277.308460000 seconds user
+       0.327853000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL 4
+size: 4096 x 4096  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 181.991377 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 181.991377, 4096, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=16 LMUL=4':
+
+    16,264,618,081      L1-dcache-loads                                                       
+     2,588,925,942      L1-dcache-load-misses            #   15.92% of all L1-dcache accesses 
+
+     186.203616464 seconds time elapsed
+
+     185.790541000 seconds user
+       0.319839000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL 8
+size: 4096 x 4096  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 141.301077 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 141.301077, 4096, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=16 LMUL=8':
+
+    18,866,599,661      L1-dcache-loads                                                       
+     1,420,565,959      L1-dcache-load-misses            #    7.53% of all L1-dcache accesses 
+
+     145.432553902 seconds time elapsed
+
+     145.075413000 seconds user
+       0.319919000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL 1
+size: 256 x 256  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.009023 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.009023, 256, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=2 LMUL=1':
+
+         8,591,466      L1-dcache-loads                                                       
+            93,794      L1-dcache-load-misses            #    1.09% of all L1-dcache accesses 
+
+       0.029255417 seconds time elapsed
+
+       0.025867000 seconds user
+       0.003695000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL 2
+size: 256 x 256  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006380 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.006380, 256, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=2 LMUL=2':
+
+         7,472,598      L1-dcache-loads                                                       
+            72,745      L1-dcache-load-misses            #    0.97% of all L1-dcache accesses 
+
+       0.026375292 seconds time elapsed
+
+       0.022877000 seconds user
+       0.003812000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL 4
+size: 256 x 256  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.005930 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.005930, 256, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=2 LMUL=4':
+
+         6,911,469      L1-dcache-loads                                                       
+            48,594      L1-dcache-load-misses            #    0.70% of all L1-dcache accesses 
+
+       0.025940709 seconds time elapsed
+
+       0.021880000 seconds user
+       0.004376000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL 8
+size: 256 x 256  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006689 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.006689, 256, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=2 LMUL=8':
+
+         6,637,447      L1-dcache-loads                                                       
+            47,442      L1-dcache-load-misses            #    0.71% of all L1-dcache accesses 
+
+       0.026572750 seconds time elapsed
+
+       0.026814000 seconds user
+       0.000000000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL 1
+size: 256 x 256  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006512 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.006512, 256, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=4 LMUL=1':
+
+         7,569,652      L1-dcache-loads                                                       
+            60,922      L1-dcache-load-misses            #    0.80% of all L1-dcache accesses 
+
+       0.026769709 seconds time elapsed
+
+       0.018058000 seconds user
+       0.009029000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL 2
+size: 256 x 256  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.005121 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.005121, 256, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=4 LMUL=2':
+
+         6,421,776      L1-dcache-loads                                                       
+            65,062      L1-dcache-load-misses            #    1.01% of all L1-dcache accesses 
+
+       0.025109500 seconds time elapsed
+
+       0.021139000 seconds user
+       0.004227000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL 4
+size: 256 x 256  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.004646 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.004646, 256, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=4 LMUL=4':
+
+         5,866,025      L1-dcache-loads                                                       
+            39,611      L1-dcache-load-misses            #    0.68% of all L1-dcache accesses 
+
+       0.024673292 seconds time elapsed
+
+       0.014276000 seconds user
+       0.010707000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL 8
+size: 256 x 256  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.007896 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.007896, 256, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=4 LMUL=8':
+
+         7,700,685      L1-dcache-loads                                                       
+            30,412      L1-dcache-load-misses            #    0.39% of all L1-dcache accesses 
+
+       0.027800208 seconds time elapsed
+
+       0.024091000 seconds user
+       0.004015000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL 1
+size: 256 x 256  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006370 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.006370, 256, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=8 LMUL=1':
+
+         7,011,301      L1-dcache-loads                                                       
+            66,039      L1-dcache-load-misses            #    0.94% of all L1-dcache accesses 
+
+       0.026505375 seconds time elapsed
+
+       0.022959000 seconds user
+       0.003826000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL 2
+size: 256 x 256  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.005038 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.005038, 256, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=8 LMUL=2':
+
+         5,900,927      L1-dcache-loads                                                       
+            52,896      L1-dcache-load-misses            #    0.90% of all L1-dcache accesses 
+
+       0.025357500 seconds time elapsed
+
+       0.014638000 seconds user
+       0.010979000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL 4
+size: 256 x 256  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.011821 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.011821, 256, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=8 LMUL=4':
+
+         8,539,700      L1-dcache-loads                                                       
+            39,127      L1-dcache-load-misses            #    0.46% of all L1-dcache accesses 
+
+       0.032539209 seconds time elapsed
+
+       0.028675000 seconds user
+       0.004096000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL 8
+size: 256 x 256  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.009066 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.009066, 256, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=8 LMUL=8':
+
+         8,234,260      L1-dcache-loads                                                       
+            28,285      L1-dcache-load-misses            #    0.34% of all L1-dcache accesses 
+
+       0.029155250 seconds time elapsed
+
+       0.022150000 seconds user
+       0.007383000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL 1
+size: 256 x 256  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.006956 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.006956, 256, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=16 LMUL=1':
+
+         8,060,290      L1-dcache-loads                                                       
+            74,278      L1-dcache-load-misses            #    0.92% of all L1-dcache accesses 
+
+       0.026913916 seconds time elapsed
+
+       0.023305000 seconds user
+       0.003884000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL 2
+size: 256 x 256  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.009320 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.009320, 256, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=16 LMUL=2':
+
+         6,819,927      L1-dcache-loads                                                       
+            76,231      L1-dcache-load-misses            #    1.12% of all L1-dcache accesses 
+
+       0.029586292 seconds time elapsed
+
+       0.018607000 seconds user
+       0.011164000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL 4
+size: 256 x 256  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.010003 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.010003, 256, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=16 LMUL=4':
+
+         8,033,738      L1-dcache-loads                                                       
+            38,965      L1-dcache-load-misses            #    0.49% of all L1-dcache accesses 
+
+       0.029814917 seconds time elapsed
+
+       0.021484000 seconds user
+       0.008593000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL 8
+size: 256 x 256  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.010501 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.010501, 256, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=16 LMUL=8':
+
+         8,658,358      L1-dcache-loads                                                       
+            39,377      L1-dcache-load-misses            #    0.45% of all L1-dcache accesses 
+
+       0.030551125 seconds time elapsed
+
+       0.026447000 seconds user
+       0.004407000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL 1
+size: 512 x 512  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.065623 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.065623, 512, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=2 LMUL=1':
+
+        50,405,417      L1-dcache-loads                                                       
+           753,271      L1-dcache-load-misses            #    1.49% of all L1-dcache accesses 
+
+       0.133639375 seconds time elapsed
+
+       0.129892000 seconds user
+       0.004059000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL 2
+size: 512 x 512  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.059818 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.059818, 512, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=2 LMUL=2':
+
+        41,754,864      L1-dcache-loads                                                       
+           418,122      L1-dcache-load-misses            #    1.00% of all L1-dcache accesses 
+
+       0.127548251 seconds time elapsed
+
+       0.115789000 seconds user
+       0.011978000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL 4
+size: 512 x 512  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.053314 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.053314, 512, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=2 LMUL=4':
+
+        37,466,660      L1-dcache-loads                                                       
+           205,246      L1-dcache-load-misses            #    0.55% of all L1-dcache accesses 
+
+       0.121493375 seconds time elapsed
+
+       0.109894000 seconds user
+       0.011774000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL 8
+size: 512 x 512  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.054371 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.054371, 512, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=2 LMUL=8':
+
+        35,292,747      L1-dcache-loads                                                       
+           248,108      L1-dcache-load-misses            #    0.70% of all L1-dcache accesses 
+
+       0.122576166 seconds time elapsed
+
+       0.110814000 seconds user
+       0.011873000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL 1
+size: 512 x 512  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.058331 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.058331, 512, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=4 LMUL=1':
+
+        42,034,190      L1-dcache-loads                                                       
+           506,582      L1-dcache-load-misses            #    1.21% of all L1-dcache accesses 
+
+       0.126998416 seconds time elapsed
+
+       0.114819000 seconds user
+       0.011877000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL 2
+size: 512 x 512  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.089161 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.089161, 512, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=4 LMUL=2':
+
+        33,363,621      L1-dcache-loads                                                       
+           485,913      L1-dcache-load-misses            #    1.46% of all L1-dcache accesses 
+
+       0.156943625 seconds time elapsed
+
+       0.149065000 seconds user
+       0.008057000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL 4
+size: 512 x 512  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.032681 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.032681, 512, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=4 LMUL=4':
+
+        29,031,736      L1-dcache-loads                                                       
+           126,100      L1-dcache-load-misses            #    0.43% of all L1-dcache accesses 
+
+       0.100418750 seconds time elapsed
+
+       0.092530000 seconds user
+       0.008046000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL 8
+size: 512 x 512  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.057461 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.057461, 512, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=4 LMUL=8':
+
+        43,706,867      L1-dcache-loads                                                       
+           108,712      L1-dcache-load-misses            #    0.25% of all L1-dcache accesses 
+
+       0.125394958 seconds time elapsed
+
+       0.117551000 seconds user
+       0.008107000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL 1
+size: 512 x 512  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.138680 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.138680, 512, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=8 LMUL=1':
+
+        37,853,126      L1-dcache-loads                                                       
+           988,008      L1-dcache-load-misses            #    2.61% of all L1-dcache accesses 
+
+       0.206649000 seconds time elapsed
+
+       0.194620000 seconds user
+       0.012163000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL 2
+size: 512 x 512  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.085938 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.085938, 512, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=8 LMUL=2':
+
+        29,179,037      L1-dcache-loads                                                       
+           555,173      L1-dcache-load-misses            #    1.90% of all L1-dcache accesses 
+
+       0.154244834 seconds time elapsed
+
+       0.146261000 seconds user
+       0.008125000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL 4
+size: 512 x 512  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.145485 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.145485, 512, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=8 LMUL=4':
+
+        50,089,214      L1-dcache-loads                                                       
+           434,947      L1-dcache-load-misses            #    0.87% of all L1-dcache accesses 
+
+       0.213748458 seconds time elapsed
+
+       0.201962000 seconds user
+       0.012117000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL 8
+size: 512 x 512  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.081828 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.081828, 512, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=8 LMUL=8':
+
+        47,928,619      L1-dcache-loads                                                       
+           199,009      L1-dcache-load-misses            #    0.42% of all L1-dcache accesses 
+
+       0.149935584 seconds time elapsed
+
+       0.146135000 seconds user
+       0.004059000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL 1
+size: 512 x 512  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.140519 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.140519, 512, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=16 LMUL=1':
+
+        46,230,371      L1-dcache-loads                                                       
+         1,185,440      L1-dcache-load-misses            #    2.56% of all L1-dcache accesses 
+
+       0.208314000 seconds time elapsed
+
+       0.196503000 seconds user
+       0.012030000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL 2
+size: 512 x 512  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.109063 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.109063, 512, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=16 LMUL=2':
+
+        36,538,623      L1-dcache-loads                                                       
+           762,161      L1-dcache-load-misses            #    2.09% of all L1-dcache accesses 
+
+       0.177008209 seconds time elapsed
+
+       0.177150000 seconds user
+       0.000000000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL 4
+size: 512 x 512  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.112287 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.112287, 512, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=16 LMUL=4':
+
+        46,405,154      L1-dcache-loads                                                       
+           750,890      L1-dcache-load-misses            #    1.62% of all L1-dcache accesses 
+
+       0.180501083 seconds time elapsed
+
+       0.172921000 seconds user
+       0.007860000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL 8
+size: 512 x 512  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.103600 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.103600, 512, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=16 LMUL=8':
+
+        51,349,101      L1-dcache-loads                                                       
+           796,132      L1-dcache-load-misses            #    1.55% of all L1-dcache accesses 
+
+       0.171249292 seconds time elapsed
+
+       0.167469000 seconds user
+       0.003987000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL 1
+size: 1024 x 1024  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 0.606656 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.606656, 1024, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=2 LMUL=1':
+
+       335,408,080      L1-dcache-loads                                                       
+         2,888,606      L1-dcache-load-misses            #    0.86% of all L1-dcache accesses 
+
+       0.866842167 seconds time elapsed
+
+       0.838614000 seconds user
+       0.027953000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL 2
+size: 1024 x 1024  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 1.135291 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 1.135291, 1024, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=2 LMUL=2':
+
+       267,325,043      L1-dcache-loads                                                       
+         5,024,148      L1-dcache-load-misses            #    1.88% of all L1-dcache accesses 
+
+       1.394300625 seconds time elapsed
+
+       1.378425000 seconds user
+       0.015981000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL 4
+size: 1024 x 1024  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.693916 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.693916, 1024, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=2 LMUL=4':
+
+       233,583,146      L1-dcache-loads                                                       
+         2,642,450      L1-dcache-load-misses            #    1.13% of all L1-dcache accesses 
+
+       0.958781917 seconds time elapsed
+
+       0.935368000 seconds user
+       0.020072000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL 8
+size: 1024 x 1024  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.487579 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.487579, 1024, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=2 LMUL=8':
+
+       216,064,544      L1-dcache-loads                                                       
+         1,398,454      L1-dcache-load-misses            #    0.65% of all L1-dcache accesses 
+
+       0.747994458 seconds time elapsed
+
+       0.719987000 seconds user
+       0.027999000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL 1
+size: 1024 x 1024  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 1.979382 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 1.979382, 1024, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=4 LMUL=1':
+
+       268,699,242      L1-dcache-loads                                                       
+         9,225,060      L1-dcache-load-misses            #    3.43% of all L1-dcache accesses 
+
+       2.240796334 seconds time elapsed
+
+       2.216298000 seconds user
+       0.024003000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL 2
+size: 1024 x 1024  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.697498 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.697498, 1024, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=4 LMUL=2':
+
+       200,083,540      L1-dcache-loads                                                       
+         2,579,582      L1-dcache-load-misses            #    1.29% of all L1-dcache accesses 
+
+       0.957140876 seconds time elapsed
+
+       0.936997000 seconds user
+       0.020021000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL 4
+size: 1024 x 1024  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 0.478312 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.478312, 1024, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=4 LMUL=4':
+
+       165,942,876      L1-dcache-loads                                                       
+         1,612,293      L1-dcache-load-misses            #    0.97% of all L1-dcache accesses 
+
+       0.737672209 seconds time elapsed
+
+       0.713728000 seconds user
+       0.024058000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL 8
+size: 1024 x 1024  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.617994 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.617994, 1024, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=4 LMUL=8':
+
+       283,338,656      L1-dcache-loads                                                       
+         1,545,278      L1-dcache-load-misses            #    0.55% of all L1-dcache accesses 
+
+       0.877647501 seconds time elapsed
+
+       0.853876000 seconds user
+       0.023940000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL 1
+size: 1024 x 1024  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 2.007892 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 2.007892, 1024, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=8 LMUL=1':
+
+       235,160,029      L1-dcache-loads                                                       
+        10,653,547      L1-dcache-load-misses            #    4.53% of all L1-dcache accesses 
+
+       2.268805626 seconds time elapsed
+
+       2.236295000 seconds user
+       0.032004000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL 2
+size: 1024 x 1024  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 1.089111 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 1.089111, 1024, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=8 LMUL=2':
+
+       166,653,728      L1-dcache-loads                                                       
+         5,789,996      L1-dcache-load-misses            #    3.47% of all L1-dcache accesses 
+
+       1.347971542 seconds time elapsed
+
+       1.323998000 seconds user
+       0.023999000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL 4
+size: 1024 x 1024  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 1.546985 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 1.546985, 1024, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=8 LMUL=4':
+
+       334,293,744      L1-dcache-loads                                                       
+         7,828,083      L1-dcache-load-misses            #    2.34% of all L1-dcache accesses 
+
+       1.807576585 seconds time elapsed
+
+       1.790766000 seconds user
+       0.015988000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL 8
+size: 1024 x 1024  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 0.760175 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.760175, 1024, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=8 LMUL=8':
+
+       316,987,865      L1-dcache-loads                                                       
+         3,928,133      L1-dcache-load-misses            #    1.24% of all L1-dcache accesses 
+
+       1.020132375 seconds time elapsed
+
+       0.992235000 seconds user
+       0.028006000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL 1
+size: 1024 x 1024  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 4.372232 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 4.372232, 1024, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=16 LMUL=1':
+
+       303,311,476      L1-dcache-loads                                                       
+       115,228,072      L1-dcache-load-misses            #   37.99% of all L1-dcache accesses 
+
+       4.639391835 seconds time elapsed
+
+       4.600779000 seconds user
+       0.031949000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL 2
+size: 1024 x 1024  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 2.323802 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 2.323802, 1024, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=16 LMUL=2':
+
+       225,911,512      L1-dcache-loads                                                       
+        57,277,794      L1-dcache-load-misses            #   25.35% of all L1-dcache accesses 
+
+       2.584082334 seconds time elapsed
+
+       2.575057000 seconds user
+       0.007997000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL 4
+size: 1024 x 1024  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 1.477304 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 1.477304, 1024, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=16 LMUL=4':
+
+       304,907,346      L1-dcache-loads                                                       
+        30,375,216      L1-dcache-load-misses            #    9.96% of all L1-dcache accesses 
+
+       1.739051501 seconds time elapsed
+
+       1.689803000 seconds user
+       0.047937000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL 8
+size: 1024 x 1024  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 1.006151 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 1.006151, 1024, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=16 LMUL=8':
+
+       344,394,178      L1-dcache-loads                                                       
+        16,694,306      L1-dcache-load-misses            #    4.85% of all L1-dcache accesses 
+
+       1.264825583 seconds time elapsed
+
+       1.232840000 seconds user
+       0.032021000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL 1
+size: 2048 x 2048  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 4.685256 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 4.685256, 2048, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=2 LMUL=1':
+
+     2,415,338,107      L1-dcache-loads                                                       
+        23,406,685      L1-dcache-load-misses            #    0.97% of all L1-dcache accesses 
+
+       5.712552753 seconds time elapsed
+
+       5.634808000 seconds user
+       0.075983000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL 2
+size: 2048 x 2048  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 3.313096 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 3.313096, 2048, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=2 LMUL=2':
+
+     1,873,912,873      L1-dcache-loads                                                       
+         4,947,104      L1-dcache-load-misses            #    0.26% of all L1-dcache accesses 
+
+       4.343558835 seconds time elapsed
+
+       4.235475000 seconds user
+       0.099799000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL 4
+size: 2048 x 2048  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 3.489065 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 3.489065, 2048, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=2 LMUL=4':
+
+     1,603,814,718      L1-dcache-loads                                                       
+        13,189,960      L1-dcache-load-misses            #    0.82% of all L1-dcache accesses 
+
+       4.527145460 seconds time elapsed
+
+       4.428230000 seconds user
+       0.096004000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL 8
+size: 2048 x 2048  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 3.756882 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 3.756882, 2048, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=2 LMUL=8':
+
+     1,468,007,854      L1-dcache-loads                                                       
+         9,703,561      L1-dcache-load-misses            #    0.66% of all L1-dcache accesses 
+
+       4.783976336 seconds time elapsed
+
+       4.666632000 seconds user
+       0.115966000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL 1
+size: 2048 x 2048  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 4.329502 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 4.329502, 2048, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=4 LMUL=1':
+
+     1,878,112,869      L1-dcache-loads                                                       
+        65,775,442      L1-dcache-load-misses            #    3.50% of all L1-dcache accesses 
+
+       5.356146836 seconds time elapsed
+
+       5.286170000 seconds user
+       0.067976000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL 2
+size: 2048 x 2048  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 3.223975 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 3.223975, 2048, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=4 LMUL=2':
+
+     1,336,660,924      L1-dcache-loads                                                       
+        51,269,177      L1-dcache-load-misses            #    3.84% of all L1-dcache accesses 
+
+       4.251386002 seconds time elapsed
+
+       4.149248000 seconds user
+       0.099933000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL 4
+size: 2048 x 2048  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 4.890355 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 4.890355, 2048, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=4 LMUL=4':
+
+     1,066,748,014      L1-dcache-loads                                                       
+        26,466,663      L1-dcache-load-misses            #    2.48% of all L1-dcache accesses 
+
+       5.918395170 seconds time elapsed
+
+       5.835996000 seconds user
+       0.079945000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL 8
+size: 2048 x 2048  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 5.103839 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 5.103839, 2048, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=4 LMUL=8':
+
+     2,005,918,201      L1-dcache-loads                                                       
+        20,121,410      L1-dcache-load-misses            #    1.00% of all L1-dcache accesses 
+
+       6.132710212 seconds time elapsed
+
+       6.010141000 seconds user
+       0.119883000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL 1
+size: 2048 x 2048  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 19.245376 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 19.245376, 2048, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=8 LMUL=1':
+
+     1,615,564,454      L1-dcache-loads                                                       
+       748,607,453      L1-dcache-load-misses            #   46.34% of all L1-dcache accesses 
+
+      20.290447343 seconds time elapsed
+
+      20.180924000 seconds user
+       0.095928000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL 2
+size: 2048 x 2048  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 13.002138 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 13.002138, 2048, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=8 LMUL=2':
+
+     1,071,640,864      L1-dcache-loads                                                       
+       375,036,063      L1-dcache-load-misses            #   35.00% of all L1-dcache accesses 
+
+      14.032768340 seconds time elapsed
+
+      13.912619000 seconds user
+       0.115938000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL 4
+size: 2048 x 2048  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 20.256554 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 20.256554, 2048, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=8 LMUL=4':
+
+     2,415,508,824      L1-dcache-loads                                                       
+       460,846,092      L1-dcache-load-misses            #   19.08% of all L1-dcache accesses 
+
+      21.298338802 seconds time elapsed
+
+      21.182819000 seconds user
+       0.099918000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL 8
+size: 2048 x 2048  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 7.266961 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 7.266961, 2048, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=8 LMUL=8':
+
+     2,275,625,901      L1-dcache-loads                                                       
+       120,643,611      L1-dcache-load-misses            #    5.30% of all L1-dcache accesses 
+
+       8.300471879 seconds time elapsed
+
+       8.201788000 seconds user
+       0.091930000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL 1
+size: 2048 x 2048  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 39.278466 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 39.278466, 2048, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=16 LMUL=1':
+
+     2,158,963,932      L1-dcache-loads                                                       
+     1,100,285,766      L1-dcache-load-misses            #   50.96% of all L1-dcache accesses 
+
+      40.318135145 seconds time elapsed
+
+      40.211930000 seconds user
+       0.091972000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL 2
+size: 2048 x 2048  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 20.881657 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 20.881657, 2048, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=16 LMUL=2':
+
+     1,544,352,319      L1-dcache-loads                                                       
+       543,768,371      L1-dcache-load-misses            #   35.21% of all L1-dcache accesses 
+
+      21.916169718 seconds time elapsed
+
+      21.853440000 seconds user
+       0.055983000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL 4
+size: 2048 x 2048  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 12.953399 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 12.953399, 2048, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=16 LMUL=4':
+
+     2,177,582,799      L1-dcache-loads                                                       
+       284,574,468      L1-dcache-load-misses            #   13.07% of all L1-dcache accesses 
+
+      13.990427965 seconds time elapsed
+
+      13.893444000 seconds user
+       0.091956000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL 8
+size: 2048 x 2048  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 8.817859 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 8.817859, 2048, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=16 LMUL=8':
+
+     2,494,117,311      L1-dcache-loads                                                       
+       153,245,261      L1-dcache-load-misses            #    6.14% of all L1-dcache accesses 
+
+       9.846795380 seconds time elapsed
+
+       9.739637000 seconds user
+       0.103953000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL 1
+size: 4096 x 4096  kernel_size:2   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 34.454862 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 34.454862, 4096, 2, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=2 LMUL=1':
+
+    18,257,102,815      L1-dcache-loads                                                       
+        89,194,473      L1-dcache-load-misses            #    0.49% of all L1-dcache accesses 
+
+      38.578417393 seconds time elapsed
+
+      38.205692000 seconds user
+       0.331667000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL 2
+size: 4096 x 4096  kernel_size:2   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 25.878462 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 25.878462, 4096, 2, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=2 LMUL=2':
+
+    13,941,282,746      L1-dcache-loads                                                       
+        24,583,963      L1-dcache-load-misses            #    0.18% of all L1-dcache accesses 
+
+      30.005330764 seconds time elapsed
+
+      29.658593000 seconds user
+       0.331805000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL 4
+size: 4096 x 4096  kernel_size:2   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 27.623526 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 27.623526, 4096, 2, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=2 LMUL=4':
+
+    11,797,558,215      L1-dcache-loads                                                       
+        78,922,688      L1-dcache-load-misses            #    0.67% of all L1-dcache accesses 
+
+      31.763422015 seconds time elapsed
+
+      31.279703000 seconds user
+       0.439602000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL 8
+size: 4096 x 4096  kernel_size:2   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 29.023801 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 29.023801, 4096, 2, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=2 LMUL=8':
+
+    10,707,853,888      L1-dcache-loads                                                       
+        74,431,422      L1-dcache-load-misses            #    0.70% of all L1-dcache accesses 
+
+      33.120557932 seconds time elapsed
+
+      32.629495000 seconds user
+       0.479786000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL 1
+size: 4096 x 4096  kernel_size:4   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 32.511887 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 32.511887, 4096, 4, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=4 LMUL=1':
+
+    13,960,308,689      L1-dcache-loads                                                       
+       512,249,345      L1-dcache-load-misses            #    3.67% of all L1-dcache accesses 
+
+      36.647536142 seconds time elapsed
+
+      36.283587000 seconds user
+       0.323675000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL 2
+size: 4096 x 4096  kernel_size:4   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 25.300941 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 25.300941, 4096, 4, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=4 LMUL=2':
+
+     9,645,077,882      L1-dcache-loads                                                       
+       379,089,068      L1-dcache-load-misses            #    3.93% of all L1-dcache accesses 
+
+      29.393358681 seconds time elapsed
+
+      29.056064000 seconds user
+       0.327910000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL 4
+size: 4096 x 4096  kernel_size:4   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 36.663670 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 36.663670, 4096, 4, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=4 LMUL=4':
+
+     7,494,370,194      L1-dcache-loads                                                       
+       206,004,132      L1-dcache-load-misses            #    2.75% of all L1-dcache accesses 
+
+      40.819319352 seconds time elapsed
+
+      40.380763000 seconds user
+       0.391580000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL 8
+size: 4096 x 4096  kernel_size:4   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 40.858589 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 40.858589, 4096, 4, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=4 LMUL=8':
+
+    15,008,940,202      L1-dcache-loads                                                       
+       157,409,096      L1-dcache-load-misses            #    1.05% of all L1-dcache accesses 
+
+      44.958403271 seconds time elapsed
+
+      44.506319000 seconds user
+       0.439864000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL 1
+size: 4096 x 4096  kernel_size:8   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 154.424844 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 154.424844, 4096, 8, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=8 LMUL=1':
+
+    11,855,506,002      L1-dcache-loads                                                       
+     6,008,864,249      L1-dcache-load-misses            #   50.68% of all L1-dcache accesses 
+
+     158.586848492 seconds time elapsed
+
+     158.158281000 seconds user
+       0.355834000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL 2
+size: 4096 x 4096  kernel_size:8   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 101.554171 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 101.554171, 4096, 8, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=8 LMUL=2':
+
+     7,525,717,459      L1-dcache-loads                                                       
+     2,995,777,000      L1-dcache-load-misses            #   39.81% of all L1-dcache accesses 
+
+     105.698263468 seconds time elapsed
+
+     105.313537000 seconds user
+       0.327818000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL 4
+size: 4096 x 4096  kernel_size:8   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 165.875754 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 165.875754, 4096, 8, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=8 LMUL=4':
+
+    18,279,289,810      L1-dcache-loads                                                       
+     3,680,329,368      L1-dcache-load-misses            #   20.13% of all L1-dcache accesses 
+
+     170.037753206 seconds time elapsed
+
+     169.636709000 seconds user
+       0.323848000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL 8
+size: 4096 x 4096  kernel_size:8   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 58.618404 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 58.618404, 4096, 8, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=8 LMUL=8':
+
+    17,163,977,064      L1-dcache-loads                                                       
+       962,268,500      L1-dcache-load-misses            #    5.61% of all L1-dcache accesses 
+
+      62.723162780 seconds time elapsed
+
+      62.363951000 seconds user
+       0.339890000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL 1
+size: 4096 x 4096  kernel_size:16   lmul:1  input_case:0 (RANDOM_INPUT)
+Execution time: 342.235509 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 342.235509, 4096, 16, 1
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=16 LMUL=1':
+
+    16,217,841,420      L1-dcache-loads                                                       
+     8,797,967,579      L1-dcache-load-misses            #   54.25% of all L1-dcache accesses 
+
+     346.484100874 seconds time elapsed
+
+     346.020213000 seconds user
+       0.319867000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL 2
+size: 4096 x 4096  kernel_size:16   lmul:2  input_case:0 (RANDOM_INPUT)
+Execution time: 173.989343 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 173.989343, 4096, 16, 2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=16 LMUL=2':
+
+    11,310,144,829      L1-dcache-loads                                                       
+     4,346,899,525      L1-dcache-load-misses            #   38.43% of all L1-dcache accesses 
+
+     178.171058877 seconds time elapsed
+
+     177.732324000 seconds user
+       0.347820000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL 4
+size: 4096 x 4096  kernel_size:16   lmul:4  input_case:0 (RANDOM_INPUT)
+Execution time: 107.470300 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 107.470300, 4096, 16, 4
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=16 LMUL=4':
+
+    16,382,376,676      L1-dcache-loads                                                       
+     2,270,502,129      L1-dcache-load-misses            #   13.86% of all L1-dcache accesses 
+
+     111.698250929 seconds time elapsed
+
+     111.285009000 seconds user
+       0.295683000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL 8
+size: 4096 x 4096  kernel_size:16   lmul:8  input_case:0 (RANDOM_INPUT)
+Execution time: 71.970235 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 71.970235, 4096, 16, 8
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=16 LMUL=8':
+
+    18,914,017,432      L1-dcache-loads                                                       
+     1,223,659,397      L1-dcache-load-misses            #    6.47% of all L1-dcache accesses 
+
+      76.089451078 seconds time elapsed
+
+      75.727165000 seconds user
+       0.331856000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 256 x 256  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.028486 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.028486, 256, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=2 LMUL=-2':
+
+        10,566,736      L1-dcache-loads                                                       
+           250,234      L1-dcache-load-misses            #    2.37% of all L1-dcache accesses 
+
+       0.048577583 seconds time elapsed
+
+       0.044823000 seconds user
+       0.004074000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 256 x 256  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.019411 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.019411, 256, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=4 LMUL=-2':
+
+         9,522,680      L1-dcache-loads                                                       
+           275,665      L1-dcache-load-misses            #    2.89% of all L1-dcache accesses 
+
+       0.039855584 seconds time elapsed
+
+       0.035895000 seconds user
+       0.003988000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 256 x 256  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.019051 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.019051, 256, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=8 LMUL=-2':
+
+         8,988,528      L1-dcache-loads                                                       
+           483,481      L1-dcache-load-misses            #    5.38% of all L1-dcache accesses 
+
+       0.039084292 seconds time elapsed
+
+       0.035372000 seconds user
+       0.003930000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 256 x 256  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.016873 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.016873, 256, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=256 KERNEL=16 LMUL=-2':
+
+        11,082,325      L1-dcache-loads                                                       
+           430,468      L1-dcache-load-misses            #    3.88% of all L1-dcache accesses 
+
+       0.036875500 seconds time elapsed
+
+       0.032985000 seconds user
+       0.004123000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 512 x 512  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.805630 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.805630, 512, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=2 LMUL=-2':
+
+        66,970,752      L1-dcache-loads                                                       
+         5,052,841      L1-dcache-load-misses            #    7.54% of all L1-dcache accesses 
+
+       0.875700084 seconds time elapsed
+
+       0.866027000 seconds user
+       0.008018000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 512 x 512  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.407762 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.407762, 512, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=4 LMUL=-2':
+
+        58,386,978      L1-dcache-loads                                                       
+         2,863,660      L1-dcache-load-misses            #    4.90% of all L1-dcache accesses 
+
+       0.475672208 seconds time elapsed
+
+       0.467823000 seconds user
+       0.007996000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 512 x 512  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.312212 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.312212, 512, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=8 LMUL=-2':
+
+        54,177,624      L1-dcache-loads                                                       
+         2,593,481      L1-dcache-load-misses            #    4.79% of all L1-dcache accesses 
+
+       0.380310250 seconds time elapsed
+
+       0.364397000 seconds user
+       0.016017000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 512 x 512  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 0.321522 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 0.321522, 512, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=512 KERNEL=16 LMUL=-2':
+
+        70,966,058      L1-dcache-loads                                                       
+         3,908,010      L1-dcache-load-misses            #    5.51% of all L1-dcache accesses 
+
+       0.389626667 seconds time elapsed
+
+       0.381911000 seconds user
+       0.008040000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 1024 x 1024  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 31.582571 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 31.582571, 1024, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=2 LMUL=-2':
+
+       479,122,709      L1-dcache-loads                                                       
+       152,989,544      L1-dcache-load-misses            #   31.93% of all L1-dcache accesses 
+
+      31.862494099 seconds time elapsed
+
+      31.805726000 seconds user
+       0.035974000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 1024 x 1024  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 16.249782 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 16.249782, 1024, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=4 LMUL=-2':
+
+       405,969,304      L1-dcache-loads                                                       
+        81,228,273      L1-dcache-load-misses            #   20.01% of all L1-dcache accesses 
+
+      16.514179299 seconds time elapsed
+
+      16.489503000 seconds user
+       0.019992000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 1024 x 1024  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 11.165414 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 11.165414, 1024, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=8 LMUL=-2':
+
+       370,909,031      L1-dcache-loads                                                       
+        69,259,321      L1-dcache-load-misses            #   18.67% of all L1-dcache accesses 
+
+      11.432742339 seconds time elapsed
+
+      11.397296000 seconds user
+       0.027983000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 1024 x 1024  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 10.447347 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 10.447347, 1024, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=1024 KERNEL=16 LMUL=-2':
+
+       504,632,680      L1-dcache-loads                                                       
+       242,673,476      L1-dcache-load-misses            #   48.09% of all L1-dcache accesses 
+
+      10.709997588 seconds time elapsed
+
+      10.690953000 seconds user
+       0.015998000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 2048 x 2048  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 253.230286 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 253.230286, 2048, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=2 LMUL=-2':
+
+     3,578,776,228      L1-dcache-loads                                                       
+     1,236,013,057      L1-dcache-load-misses            #   34.54% of all L1-dcache accesses 
+
+     254.561371580 seconds time elapsed
+
+     254.158083000 seconds user
+       0.099893000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 2048 x 2048  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 151.833651 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 151.833651, 2048, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=4 LMUL=-2':
+
+     3,007,987,867      L1-dcache-loads                                                       
+       831,515,551      L1-dcache-load-misses            #   27.64% of all L1-dcache accesses 
+
+     153.224960198 seconds time elapsed
+
+     152.765083000 seconds user
+       0.099786000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 2048 x 2048  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 110.276439 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 110.276439, 2048, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=8 LMUL=-2':
+
+     2,715,604,268      L1-dcache-loads                                                       
+     1,770,630,123      L1-dcache-load-misses            #   65.20% of all L1-dcache accesses 
+
+     111.386578845 seconds time elapsed
+
+     111.218943000 seconds user
+       0.083935000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 2048 x 2048  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 90.042133 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 90.042133, 2048, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=2048 KERNEL=16 LMUL=-2':
+
+     3,779,401,782      L1-dcache-loads                                                       
+     2,256,247,133      L1-dcache-load-misses            #   59.70% of all L1-dcache accesses 
+
+      91.104386752 seconds time elapsed
+
+      90.977746000 seconds user
+       0.091961000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 4096 x 4096  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 2117.682587 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 2117.682587, 4096, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=2 LMUL=-2':
+
+    27,647,206,716      L1-dcache-loads                                                       
+     9,884,723,143      L1-dcache-load-misses            #   35.75% of all L1-dcache accesses 
+
+    2124.926255305 seconds time elapsed
+
+    2121.304048000 seconds user
+       0.467347000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 4096 x 4096  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 1253.921668 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 1253.921668, 4096, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=4 LMUL=-2':
+
+    23,032,055,668      L1-dcache-loads                                                       
+     6,605,325,725      L1-dcache-load-misses            #   28.68% of all L1-dcache accesses 
+
+    1260.599245643 seconds time elapsed
+
+    1257.552308000 seconds user
+       0.483087000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 4096 x 4096  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 917.079591 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 917.079591, 4096, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=8 LMUL=-2':
+
+    20,698,827,742      L1-dcache-loads                                                       
+    14,269,685,806      L1-dcache-load-misses            #   68.94% of all L1-dcache accesses 
+
+     921.827058440 seconds time elapsed
+
+     920.863154000 seconds user
+       0.327781000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 4096 x 4096  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Execution time: 771.262382 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_tiling_v3, 771.262382, 4096, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_tiling_v3 SIZE=4096 KERNEL=16 LMUL=-2':
+
+    29,222,980,982      L1-dcache-loads                                                       
+    18,049,493,950      L1-dcache-load-misses            #   61.76% of all L1-dcache accesses 
+
+     775.772872870 seconds time elapsed
+
+     774.993229000 seconds user
+       0.351815000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 256 x 256  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 0.014961 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.014961, 256, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=2 LMUL=-2':
+
+        10,830,022      L1-dcache-loads                                                       
+           140,654      L1-dcache-load-misses            #    1.30% of all L1-dcache accesses 
+
+       0.035054708 seconds time elapsed
+
+       0.031448000 seconds user
+       0.003931000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 256 x 256  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 0.012091 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.012091, 256, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=4 LMUL=-2':
+
+         9,760,213      L1-dcache-loads                                                       
+           105,133      L1-dcache-load-misses            #    1.08% of all L1-dcache accesses 
+
+       0.031951583 seconds time elapsed
+
+       0.025094000 seconds user
+       0.007169000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 256 x 256  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 0.010308 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.010308, 256, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=8 LMUL=-2':
+
+         9,245,865      L1-dcache-loads                                                       
+           101,507      L1-dcache-load-misses            #    1.10% of all L1-dcache accesses 
+
+       0.030482667 seconds time elapsed
+
+       0.026357000 seconds user
+       0.004392000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 256
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 256 x 256  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 0.013875 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.013875, 256, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=256 KERNEL=16 LMUL=-2':
+
+        11,607,459      L1-dcache-loads                                                       
+           326,125      L1-dcache-load-misses            #    2.81% of all L1-dcache accesses 
+
+       0.033712333 seconds time elapsed
+
+       0.029731000 seconds user
+       0.004247000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 512 x 512  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 0.115720 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.115720, 512, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=2 LMUL=-2':
+
+        67,797,474      L1-dcache-loads                                                       
+           754,959      L1-dcache-load-misses            #    1.11% of all L1-dcache accesses 
+
+       0.184354667 seconds time elapsed
+
+       0.176082000 seconds user
+       0.008003000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 512 x 512  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 0.301183 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.301183, 512, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=4 LMUL=-2':
+
+        59,412,288      L1-dcache-loads                                                       
+         2,210,753      L1-dcache-load-misses            #    3.72% of all L1-dcache accesses 
+
+       0.369402625 seconds time elapsed
+
+       0.353647000 seconds user
+       0.015894000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 512 x 512  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 0.263519 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.263519, 512, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=8 LMUL=-2':
+
+        55,229,963      L1-dcache-loads                                                       
+         1,880,246      L1-dcache-load-misses            #    3.40% of all L1-dcache accesses 
+
+       0.332416417 seconds time elapsed
+
+       0.323864000 seconds user
+       0.007996000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 512
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 512 x 512  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 0.288349 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 0.288349, 512, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=512 KERNEL=16 LMUL=-2':
+
+        74,093,238      L1-dcache-loads                                                       
+         2,219,535      L1-dcache-load-misses            #    3.00% of all L1-dcache accesses 
+
+       0.355966000 seconds time elapsed
+
+       0.352238000 seconds user
+       0.004002000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 1024 x 1024  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 3.965330 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 3.965330, 1024, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=2 LMUL=-2':
+
+       473,174,102      L1-dcache-loads                                                       
+        27,608,112      L1-dcache-load-misses            #    5.83% of all L1-dcache accesses 
+
+       4.228102502 seconds time elapsed
+
+       4.192061000 seconds user
+       0.031969000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 1024 x 1024  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 3.756987 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 3.756987, 1024, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=4 LMUL=-2':
+
+       405,702,655      L1-dcache-loads                                                       
+        19,032,404      L1-dcache-load-misses            #    4.69% of all L1-dcache accesses 
+
+       4.022378377 seconds time elapsed
+
+       3.989881000 seconds user
+       0.027957000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 1024 x 1024  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 3.003024 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 3.003024, 1024, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=8 LMUL=-2':
+
+       371,972,892      L1-dcache-loads                                                       
+        16,541,749      L1-dcache-load-misses            #    4.45% of all L1-dcache accesses 
+
+       3.269650710 seconds time elapsed
+
+       3.231959000 seconds user
+       0.031999000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 1024
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 1024 x 1024  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 8.624716 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 8.624716, 1024, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=1024 KERNEL=16 LMUL=-2':
+
+       524,794,463      L1-dcache-loads                                                       
+       230,684,483      L1-dcache-load-misses            #   43.96% of all L1-dcache accesses 
+
+       8.887575755 seconds time elapsed
+
+       8.861939000 seconds user
+       0.023994000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 2048 x 2048  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 6.513993 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 6.513993, 2048, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=2 LMUL=-2':
+
+     3,498,069,253      L1-dcache-loads                                                       
+        16,463,689      L1-dcache-load-misses            #    0.47% of all L1-dcache accesses 
+
+       7.549958504 seconds time elapsed
+
+       7.443968000 seconds user
+       0.095896000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 2048 x 2048  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 6.591838 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 6.591838, 2048, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=4 LMUL=-2':
+
+     2,961,152,021      L1-dcache-loads                                                       
+        88,243,223      L1-dcache-load-misses            #    2.98% of all L1-dcache accesses 
+
+       7.620538045 seconds time elapsed
+
+       7.530328000 seconds user
+       0.087980000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 2048 x 2048  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 36.035789 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 36.035789, 2048, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=8 LMUL=-2':
+
+     2,703,682,882      L1-dcache-loads                                                       
+     1,488,824,871      L1-dcache-load-misses            #   55.07% of all L1-dcache accesses 
+
+      37.100720976 seconds time elapsed
+
+      36.993542000 seconds user
+       0.071932000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 2048
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 2048 x 2048  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 76.363235 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 76.363235, 2048, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=2048 KERNEL=16 LMUL=-2':
+
+     3,927,163,464      L1-dcache-loads                                                       
+     2,148,772,868      L1-dcache-load-misses            #   54.72% of all L1-dcache accesses 
+
+      77.483140704 seconds time elapsed
+
+      77.311959000 seconds user
+       0.083913000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 2
+> passing LMUL -2 (FRACTIONAL)
+size: 4096 x 4096  kernel_size:2   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 49.606394 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 49.606394, 4096, 2, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=2 LMUL=-2':
+
+    26,887,587,651      L1-dcache-loads                                                       
+       110,363,576      L1-dcache-load-misses            #    0.41% of all L1-dcache accesses 
+
+      53.737281276 seconds time elapsed
+
+      53.416111000 seconds user
+       0.291869000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 4
+> passing LMUL -2 (FRACTIONAL)
+size: 4096 x 4096  kernel_size:4   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 49.391247 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 49.391247, 4096, 4, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=4 LMUL=-2':
+
+    22,588,792,173      L1-dcache-loads                                                       
+       624,558,063      L1-dcache-load-misses            #    2.76% of all L1-dcache accesses 
+
+      53.517410901 seconds time elapsed
+
+      53.186108000 seconds user
+       0.311871000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 8
+> passing LMUL -2 (FRACTIONAL)
+size: 4096 x 4096  kernel_size:8   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 294.150447 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 294.150447, 4096, 8, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=8 LMUL=-2':
+
+    20,526,395,600      L1-dcache-loads                                                       
+    11,930,432,768      L1-dcache-load-misses            #   58.12% of all L1-dcache accesses 
+
+     298.348829142 seconds time elapsed
+
+     297.880389000 seconds user
+       0.355866000 seconds sys
+
+
+Testing matrix 
+> VLEN: 256
+> passing SIZE 4096
+> passing KERNEL 16
+> passing LMUL -2 (FRACTIONAL)
+size: 4096 x 4096  kernel_size:16   lmul:-2  input_case:0 (RANDOM_INPUT)
+Tw:4
+Execution time: 650.573221 seconds
+> BENCHMARK_RECORD : rvv_smatmulop_f32_reordered_tiling_v3, 650.573221, 4096, 16, -2
+
+ Performance counter stats for './build/riscv64/rvv_smatmulop_f32_reordered_tiling_v3 SIZE=4096 KERNEL=16 LMUL=-2':
+
+    30,319,772,239      L1-dcache-loads                                                       
+    17,191,538,060      L1-dcache-load-misses            #   56.70% of all L1-dcache accesses 
+
+     654.924988729 seconds time elapsed
+
+     654.340821000 seconds user
+       0.319871000 seconds sys
+
+

@@ -1,0 +1,76 @@
+Testing matrix size: 256 x 256
+Execution time: 0.079352 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline, 0.079352, 256
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline 256':
+
+        36,870,805      L1-dcache-loads                                                       
+            51,073      L1-dcache-load-misses            #    0.14% of all L1-dcache accesses 
+
+       0.094512416 seconds time elapsed
+
+       0.090689000 seconds user
+       0.004122000 seconds sys
+
+
+Testing matrix size: 512 x 512
+Execution time: 0.621190 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline, 0.621190, 512
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline 512':
+
+       281,559,032      L1-dcache-loads                                                       
+           558,760      L1-dcache-load-misses            #    0.20% of all L1-dcache accesses 
+
+       0.685043250 seconds time elapsed
+
+       0.658665000 seconds user
+       0.011832000 seconds sys
+
+
+Testing matrix size: 1024 x 1024
+Execution time: 5.183731 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline, 5.183731, 1024
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline 1024':
+
+     2,199,144,139      L1-dcache-loads                                                       
+         7,783,354      L1-dcache-load-misses            #    0.35% of all L1-dcache accesses 
+
+       5.411137502 seconds time elapsed
+
+       5.316434000 seconds user
+       0.051693000 seconds sys
+
+
+Testing matrix size: 2048 x 2048
+Execution time: 40.887257 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline, 40.887257, 2048
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline 2048':
+
+    17,403,642,371      L1-dcache-loads                                                       
+        63,167,441      L1-dcache-load-misses            #    0.36% of all L1-dcache accesses 
+
+      42.054071561 seconds time elapsed
+
+      41.343924000 seconds user
+       0.266863000 seconds sys
+
+
+Testing matrix size: 4096 x 4096
+Execution time: 318.264238 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline, 318.264238, 4096
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline 4096':
+
+   138,323,573,648      L1-dcache-loads                                                       
+       278,502,860      L1-dcache-load-misses            #    0.20% of all L1-dcache accesses 
+
+     321.209229154 seconds time elapsed
+
+     320.782228000 seconds user
+       0.331902000 seconds sys
+
+
+

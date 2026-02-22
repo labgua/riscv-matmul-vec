@@ -1,0 +1,79 @@
+
+Testing matrix size: 256 x 256
+Execution time: 0.021402 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline_autovect, 0.021402, 256
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline_autovect 256':
+
+        11,556,533      L1-dcache-loads                                                       
+            49,045      L1-dcache-load-misses            #    0.42% of all L1-dcache accesses 
+
+       0.036791250 seconds time elapsed
+
+       0.028624000 seconds user
+       0.008178000 seconds sys
+
+
+
+Testing matrix size: 512 x 512
+Execution time: 0.230204 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline_autovect, 0.230204, 512
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline_autovect 512':
+
+        79,166,560      L1-dcache-loads                                                       
+           399,416      L1-dcache-load-misses            #    0.50% of all L1-dcache accesses 
+
+       0.279218625 seconds time elapsed
+
+       0.270925000 seconds user
+       0.008087000 seconds sys
+
+
+
+Testing matrix size: 1024 x 1024
+Execution time: 2.043256 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline_autovect, 2.043256, 1024
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline_autovect 1024':
+
+       585,095,556      L1-dcache-loads                                                       
+         5,739,354      L1-dcache-load-misses            #    0.98% of all L1-dcache accesses 
+
+       2.238765793 seconds time elapsed
+
+       2.188475000 seconds user
+       0.039862000 seconds sys
+
+
+
+Testing matrix size: 2048 x 2048
+Execution time: 14.278821 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline_autovect, 14.278821, 2048
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline_autovect 2048':
+
+     4,488,101,010      L1-dcache-loads                                                       
+        50,613,247      L1-dcache-load-misses            #    1.13% of all L1-dcache accesses 
+
+      14.995425507 seconds time elapsed
+
+      14.890376000 seconds user
+       0.095963000 seconds sys
+
+
+
+Testing matrix size: 4096 x 4096
+Execution time: 117.411099 seconds
+> BENCHMARK_RECORD : smatmulop_f32_baseline_autovect, 117.411099, 4096
+
+ Performance counter stats for './build/riscv64/smatmulop_f32_baseline_autovect 4096':
+
+    35,191,236,892      L1-dcache-loads                                                       
+       273,703,226      L1-dcache-load-misses            #    0.78% of all L1-dcache accesses 
+
+     121.256618182 seconds time elapsed
+
+     119.451606000 seconds user
+       0.802519000 seconds sys
+
