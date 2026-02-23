@@ -2,6 +2,73 @@ import pandas as pd
 import argparse
 import sys
 import os
+import re
+
+def parse_lmul_value(val):
+    """
+    Converte un valore LMUL che può essere:
+    - Intero: "1", "2", "4", "8"
+    - Frazione: "1/2", "1/4", "1/8"
+    - Float: "1.0", "2.0"
+    - Già numerico: 1, 2, 0.5
+    Restituisce il valore numerico float.
+    """
+    if pd.isna(val):
+        return 1.0
+    
+    # Se è già numerico
+    if isinstance(val, (int, float)):
+        return float(val)
+    
+    val = str(val).strip()
+    
+    # Se è una frazione (es. "1/2")
+    if '/' in val:
+        try:
+            num, den = val.split('/')
+            return float(num) / float(den)
+        except:
+            return 1.0
+    
+    # Altrimenti prova a convertire come numero
+    try:
+        return float(val)
+    except:
+        return 1.0
+
+def format_lmul_value(val):
+    """
+    Formatta un valore LMUL per la scrittura nel CSV:
+    - Se è intero (1.0, 2.0, 4.0, 8.0) → "1", "2", "4", "8"
+    - Se è frazionario (0.5, 0.25, 0.125) → "1/2", "1/4", "1/8"
+    - Altrimenti → stringa normale
+    """
+    if pd.isna(val):
+        return "1"
+    
+    val = float(val)
+    
+    # Mappatura frazioni comuni
+    fraction_map = {
+        0.125: "1/8",
+        0.25: "1/4",
+        0.5: "1/2",
+        1.0: "1",
+        2.0: "2",
+        4.0: "4",
+        8.0: "8"
+    }
+    
+    # Cerca corrispondenza esatta o molto vicina
+    for frac_val, frac_str in fraction_map.items():
+        if abs(val - frac_val) < 1e-9:
+            return frac_str
+    
+    # Se non è un valore standard, formatta come float
+    if val == int(val):
+        return str(int(val))
+    else:
+        return str(val)
 
 def load_csv(filepath):
     """Carica il CSV e pulisce i nomi delle colonne."""
@@ -19,7 +86,11 @@ def apply_defaults(df, defaults):
         if col not in df.columns:
             df[col] = val
         else:
-            df[col] = pd.to_numeric(df[col], errors='coerce').fillna(val)
+            # Usa parse_lmul_value per gestire frazioni
+            if col in ['lmul']:
+                df[col] = df[col].apply(parse_lmul_value)
+            else:
+                df[col] = pd.to_numeric(df[col], errors='coerce').fillna(val)
     return df
 
 def main():
@@ -39,6 +110,12 @@ def main():
     
     # 2. SALVA COLONNE ORIGINALI ORA (Prima di aggiungere default)
     original_opt_columns = df_opt.columns.tolist()
+    
+    # Salva anche i valori originali di lmul per mantenerli nel formato corretto
+    if 'lmul' in df_opt.columns:
+        original_lmul_values = df_opt['lmul'].copy()
+    else:
+        original_lmul_values = None
 
     # 3. Applica default per il calcolo interno su B
     df_opt = apply_defaults(df_opt, defaults)
@@ -92,8 +169,18 @@ def main():
             print(f"Errore: Colonna '{col}' attesa non trovata nel risultato.")
             sys.exit(1)
 
-    df_final = df_merged[final_columns]
+    df_final = df_merged[final_columns].copy()
     
+    # 9. FORMATTAZIONE LMUL PER L'OUTPUT
+    # Ripristina il formato originale dei valori LMUL
+    if 'lmul' in df_final.columns:
+        df_final['lmul'] = df_final['lmul'].apply(format_lmul_value)
+    
+    # Crea la directory di output se non esiste
+    output_dir = os.path.dirname(args.output)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+
     df_final.to_csv(args.output, index=False)
     print(f"Salvato in: {args.output}")
     print(f"Speedup Medio: {df_final['speedup'].mean():.4f}")
@@ -101,27 +188,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-'''
-Supponiamo tu abbia:
-
-    baseline.csv (Versione A)
-    autovect.csv (Versione B)
-    La colonna del tempo si chiama cycles (invece di time).
-    Le chiavi per matching sono size, kernel, lmul. (Non hai unroll nei CSV).
-
-Esegui questo comando nel terminale:
-
-bash
-1
-
-Spiegazione delle opzioni
-
-    file_base: Il file di riferimento (quello "lento", il denominatore dello speedup è l'ottimizzato, il numeratore è il base).
-    file_opt: Il file su cui vuoi aggiungere la colonna (quello "veloce").
-    -m: Specifica il nome della colonna che contiene i cicli o il tempo (es. time, cycles, latency).
-    -k: Specifica quali colonne identificano univocamente una configurazione. Se nei tuoi CSV non c'è unroll, basta non includerlo in questa lista (lo script gestirà comunque il default LMUL=1 se la colonna manca).
-    -o: Il nome del file finale.
-'''
