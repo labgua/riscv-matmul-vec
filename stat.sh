@@ -3,13 +3,13 @@
 
 #tables
 
-#make table-baseline \
-#    table-autovect \
-#    table-tiling_v1 \
-#    table-tiling_v2 \
-#    table-tiling_v3 \
-#    table-reordered_tiling \
-#    table-reordered_tiling_unrolling
+make table-baseline \
+    table-autovect \
+    table-tiling_v1 \
+    table-tiling_v2 \
+    table-tiling_v3 \
+    table-reordered_tiling \
+    table-reordered_tiling_unrolling
 
 
 
