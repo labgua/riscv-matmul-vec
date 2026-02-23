@@ -149,6 +149,34 @@ riscv-disass-func:
 	$(CC_RISCV64_EMU) -O3 -o build/qemu/$@ $< -fopenmp $(UTILS_O_QEMU) $(RISCV_OPT)
 	$(CC_RISCV64) -O3 -o build/riscv64/$@ $< -fopenmp $(UTILS_O_RISCV) $(RISCV_OPT)
 
+
+
+
+# Tables and Charts
+
+table-%:
+	python3 script/tables_benchmark.py report/$*/bench*.txt report/$*/table-$*.csv
+
+# %: version
+single-plot-%:
+	python3 script/plot_benchmarks.py report/$*/table-$*.csv --output-dir report/$* --mode single
+
+# %: current version
+# $BASE: previous version
+# $OPTIONS: other options (future)
+compare-plot-%:
+	python3 script/plot_benchmarks.py report/$(BASE)/table-$(BASE).csv --compare-files report/$*/table-$*.csv --output-dir report/$*/compare-$(BASE) --mode compare $(OPTIONS)
+
+
+# %: current version
+# $BASE: previous version
+# $CALC_OPT: other options
+# $PLOT_OPT: other options
+speedup-%:
+	python3 script/calc_speedup.py report/$(BASE)/table-$(BASE).csv report/$*/table-$*.csv $(CALC_OPT) --output report/$*/compare-$(BASE)/speedup-$*_$(BASE).csv
+	python3 script/plot_speedup.py report/$*/compare-$(BASE)/speedup-$*_$(BASE).csv -o report/$*/compare-$(BASE)/speedup-$*_$(BASE).png $(PLOT_OPT)
+
+
 clean:
 	rm -f build/x86_64/*
 	rm -f build/qemu/*
