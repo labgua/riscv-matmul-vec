@@ -136,6 +136,12 @@ test_unrolling: $(UTILS_O_X86) $(UTILS_O_QEMU) $(UTILS_O_RISCV)
 	$(CC_RISCV64_EMU) -O3 -S -o build/qemu/test_unrolling.s test/test_unrolling.c $(UTILS_O_QEMU) -DUNROLL=2 $(RISCV_OPT) -fopt-info -fopt-info-loop -fopt-info-loop-missed
 
 
+# assembly analisys
+riscv-disass:
+	objdump -d build/riscv64/$(EXEC) > build/riscv64/$(EXEC).s 
+
+riscv-disass-func:
+	objdump -d --disassemble-symbols=$(FUNC) build/riscv64/$(EXEC) > build/riscv64/$(EXEC).s 
 
 # compile target with -O3 as default
 %: %.c $(UTILS_O_X86) $(UTILS_O_QEMU) $(UTILS_O_RISCV)
