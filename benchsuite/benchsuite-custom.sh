@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Benchsuite V7 - perf analysis (tiling vs reordered_tiling with UNROLLING [V3]) - 100 execution"
 
 if [ $# -ne 1 ]; then
