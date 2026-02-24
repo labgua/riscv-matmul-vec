@@ -57,4 +57,4 @@ mkdir report/reordered_tiling
 # reordered_tiling_unrolling
 echo "> reordered_tiling_unrolling"
 mkdir report/reordered_tiling_unrolling
-#./benchsuite/benchsuite-custom.sh
+./benchsuite/benchsuite-custom.sh
